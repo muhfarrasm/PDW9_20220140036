@@ -1,0 +1,141 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-content h1 {
+    font-size: 2em;
+}
+
+.header-content ul {
+    list-style-type: none;
+}
+
+.header-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-content ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* Navbar styles */
+
+/* Header styles */
+
+/* Main content styles */
+.main {
+    padding: 20px;
+}
+
+.profile {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* Mengatur logo di tengah */
+    align-items: center;
+    margin-bottom: 10px; /* Jarak antara logo dan judul */
+}
+
+.logo-container img {
+    max-width: 50px; /* Mengatur lebar maksimum logo */
+    margin-right: 30px; /* Jarak antara logo dan teks */
+}
+
+main {
+    margin-top: 80px; /* Menambahkan margin atas agar tidak mepet dengan header */
+    margin: left;
+    margin-left: 100px;
+    max-width: 1630px; /* Mengatur lebar maksimum konten agar tetap responsif */
+}
+
+.box {
+    background-color: #232121;
+    border: 1px solid #0b8ace;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+
+
+
+.box p {
+    margin-bottom: 0;
+    color: #fff;
+    text-align: CENTER;
+}

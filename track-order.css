@@ -1,0 +1,170 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-content h1 {
+    font-size: 2em;
+}
+
+.header-content ul {
+    list-style-type: none;
+}
+
+.header-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-content ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* Navbar styles */
+
+/* Header styles */
+
+/* Main content styles */
+.main {
+    padding: 20px;
+}
+
+.profile {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* Mengatur logo di tengah */
+    align-items: center;
+    margin-bottom: 10px; /* Jarak antara logo dan judul */
+}
+
+.logo-container img {
+    max-width: 50px; /* Mengatur lebar maksimum logo */
+    margin-right: 30px; /* Jarak antara logo dan teks */
+}
+
+main {
+   
+    padding: 50px;
+}
+
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.inner-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.main-container h2 {
+    color: #383838;
+    margin-bottom: 8px;
+    text-align: center; 
+}
+.main-container h3 {
+    color: #383838;
+    margin-bottom: 8px;
+    text-align: left; 
+    margin-top: 8px;
+}
+
+.inner-box1 h4{
+    background-color: black;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #ccc;
+    text-align: center; 
+    
+}
+.inner-box p {
+    color: #666;
+}
